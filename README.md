@@ -25,6 +25,28 @@ This application allows users to manage recipes, ingredients, and cooking instru
 * CSS
 * MVC Architecture
 
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Recipe Management
+
+![Recipe Management](screenshots/recipes.png)
+
+### Ingredient Management
+
+![Ingredient Management](screenshots/ingredients.png)
+
+### Instruction Management
+
+![Instruction Management](screenshots/instructions.png)
+
+### Search Functionality
+
+![Search Functionality](screenshots/search.png)
+
 ## Database Tables
 
 * recipes
