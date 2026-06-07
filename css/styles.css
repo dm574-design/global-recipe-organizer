@@ -1,0 +1,134 @@
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Name:       styles.css
+Author:     Drew Miller
+Date:       2026-03-13
+Language:   CSS
+Purpose:    The purpose of this file is to be the main stylesheet for the project.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ChangeLog:
+Who                            When                           What
+------------ ----------------------------------------------------------------------------------------------------------------------------------
+DNM                            2026-03-13                     Original Version
+DNM                            2026-03-28                     Updated Version - Added organized section comments
+DNM                            2026-05-11                     Added styling for recipe search form layout and spacing
+·                                                             Improved consistency of form input alignment and button spacing
+·                                                             Added styling for search submit button to match existing application theme
+·                                                             Enhanced overall UI consistency across recipe management pages
+                                                              Added validation error message styling for improved user feedback
+                                                              Added search form styling for layout consistency
+                                                              Improved spacing and alignment for recipe management forms
+----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* ===================
+    Global Styles
+=====================*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+/* ====================
+    Header Styles
+====================== */
+h1, h2 {
+    color: #333333;
+}
+
+/*=====================
+    Table Styles
+===================== */
+table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #999999;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e6e6e6;
+}
+
+/* ========================
+     Button & Link Styles
+========================== */
+a, input[type="submit"], button {
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a:hover, input[type="submit"]:hover, button:hover {
+    background-color: #005fa3;
+}
+
+/* =======================
+       Form Styles
+======================== */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Search form styling */
+.search-form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.search-form label {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.search-form input[type="text"] {
+    padding: 6px;
+    width: 250px;
+}
+
+.search-form input[type="submit"] {
+    margin-left: 8px;
+}
+
+/* Validation error messages */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
