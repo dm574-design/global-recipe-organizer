@@ -90,3 +90,9 @@ Dan Miller
 
 Associate of Applied Science in Computer Science (Data Analytics Emphasis)
 
+## Video Demonstration
+
+A walkthrough of the Global Recipe Organizer application is available on LinkedIn.
+
+Video Link:
+https://www.linkedin.com/posts/drew-miller-61592336b_php-mysql-webdevelopment-ugcPost-7469877727513387008-uZrc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFvLlbEBnL3JYfg_HhD5VDwp-NS0or_brYc
